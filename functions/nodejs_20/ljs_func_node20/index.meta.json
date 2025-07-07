@@ -1,0 +1,16 @@
+{
+  "apiID": "package_6ac88c__c__function_aadinothxachs",
+  "apiName": "ljs_func_node20",
+  "label": {
+    "zh_CN": "ljs_func_node20",
+    "en_US": ""
+  },
+  "description": {
+    "zh_CN": "自定义函数",
+    "en_US": "Custom Function"
+  },
+  "longTaskMode": false,
+  "frontendSDKInvokable": true,
+  "input": [],
+  "output": []
+}
