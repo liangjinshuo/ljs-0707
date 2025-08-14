@@ -1,0 +1,16 @@
+{
+  "apiID": "package_6ac88c__c__function_aaditwp3wjuas",
+  "apiName": "node14_invoke_object",
+  "label": {
+    "zh_CN": "node14_invoke_object",
+    "en_US": ""
+  },
+  "description": {
+    "zh_CN": "自定义函数",
+    "en_US": "Custom Function"
+  },
+  "longTaskMode": false,
+  "frontendSDKInvokable": true,
+  "input": [],
+  "output": []
+}
