@@ -11,7 +11,7 @@
  */
  module.exports = async function (params, context, logger) {
      // 日志功能
-     logger.info(`${new Date()} 函数开始执行`);
+     logger.info(`${new Date()} 函数开始执行_update部分发布`);
  
      // mock 用户
   //    faas.tool.mockUserID(1775461262464056);
