@@ -9,9 +9,14 @@
  *
  * @return 函数的返回数据
  */
-module.exports = async function (params, context, logger) {
-  // 日志功能
-  // logger.info(`${new Date()} 函数开始执行`);
-
-  // 在这里补充业务代码
-}
+ module.exports = async function (params, context, logger) {
+     // 日志功能
+     logger.info(`${new Date()} 函数开始执行`);
+ 
+     // mock 用户
+  //    faas.tool.mockUserID(1775461262464056);
+ 
+     // 在这里补充业务代码
+     const records = await application.data.object("object_1b83476c1f4").limit(3).select("text_09335799224", "formula_88465cfcb34").find();
+     logger.info(`records: ${JSON.stringify(records)}`);
+ }
